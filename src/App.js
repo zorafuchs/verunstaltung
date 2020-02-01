@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './Styles/App.css';
 import Button from 'react-bootstrap/Button';
-import { NavigationComponent } from './NavigationComponent';
+import { NavigationComponent } from './Components/NavigationComponent';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-import { NavigationItemModel } from './NavigationItemModel';
+import { NavigationItemModel } from '../Models/NavigationItemModel';
 
 export const navItems = [
     new NavigationItemModel('#home', 'Verunstaltungskalender'),
