@@ -10,9 +10,8 @@ export const navItems = [
 ]
 
 export function NavigationItemsComponent() {
-    var itemsJsx = [];
-    navItems.forEach(item => {
-        itemsJsx.push(<Nav.Link href={item.href}>{item.label}</Nav.Link>);
-    });
-    return itemsJsx;
+    var itemsJsx = navItems
+    return itemsJsx.map((item, index) => 
+        <Nav.Link key={index} href={item.href}>{item.label}</Nav.Link>
+    );
 }
