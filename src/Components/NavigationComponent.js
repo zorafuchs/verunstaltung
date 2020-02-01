@@ -6,7 +6,6 @@ import {NavigationItemsComponent} from './NavigationItemsComponent'
 export function NavigationComponent() {
 
   return (<Navbar collapseOnSelect expand={false} bg="dark" variant="dark">
-    <Navbar.Brand href="#home"></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
