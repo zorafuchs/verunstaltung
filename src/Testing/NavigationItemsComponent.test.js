@@ -2,7 +2,7 @@ import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
 
-import App from '../App';
+import NavigationItemsComponent from '../Components/NavigationItemsComponent';
 
 let container = null;
 beforeEach(() => {
@@ -18,9 +18,9 @@ afterEach(() => {
   container = null;
 });
 
-it('renders learn react link', () => {
+it('renders learn link "Kontakt"', () => {
   act(() => {
-    render(<App />, container);
+    render(<NavigationItemsComponent />, container);
   });
-  expect(container.textContent).toContain("Learn React");
+  expect(container.textContent).toContain("Kontakt");
 });
