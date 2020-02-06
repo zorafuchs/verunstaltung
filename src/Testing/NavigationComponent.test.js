@@ -18,7 +18,7 @@ afterEach(() => {
   container = null;
 });
 
-it('renders learn link "Kontakt"', () => {
+it('renders link "Kontakt"', () => {
   act(() => {
     render(<NavigationComponent />, container);
   });
