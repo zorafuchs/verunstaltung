@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders the app correctly 1`] = `
+<Container
+  fluid={false}
+>
+  <Component />
+  <Jumbotron
+    className="mt-5"
+    fluid={true}
+  >
+    <Container
+      fluid={false}
+    >
+      <h1>
+        Nweedia Dashboard
+      </h1>
+      <p>
+        Management dashboard for the Nweedia infrastructure.
+      </p>
+    </Container>
+  </Jumbotron>
+</Container>
+`;

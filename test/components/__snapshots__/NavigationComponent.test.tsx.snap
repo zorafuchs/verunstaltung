@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders NavigationComponent correctly 1`] = `
+<Navbar
+  bg="dark"
+  collapseOnSelect={true}
+  expand={false}
+  variant="dark"
+>
+  <NavbarToggle
+    aria-controls="responsive-navbar-nav"
+    label="Toggle navigation"
+  />
+  <NavbarCollapse
+    id="responsive-navbar-nav"
+  >
+    <Nav
+      className="mr-auto"
+      fill={false}
+      justify={false}
+    >
+      <NavigationItemsComponent />
+    </Nav>
+  </NavbarCollapse>
+</Navbar>
+`;
