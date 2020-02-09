@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  background-color: turquoise;
+}
+
+.sticky{
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+  left: 0;
+  background: white;
+  z-index:99;
+}
+
+p, h1, h2, h3, h4, .white-bg{
+  background: white;
+}
+
+.card-title{
+  color: red;
+}
