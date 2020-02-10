@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { Card, Container, Image } from 'react-bootstrap';
 import { NavigationComponent } from './components/NavigationComponent';
-import logo from './logo.png';
-import img1 from './img1.jpg';
-import img2 from './img2.jpg';
+import logo from './logo.svg';
+import img1 from './img1.png';
+import img2 from './img2.png';
 import img3 from './img3.png';
 
 export const App: React.FC = () => (
   <div>
-    <div className="sticky">
+    <div className="sticky white-bg">
       <Image src={logo} fluid />
       <NavigationComponent />
     </div>
@@ -48,6 +48,7 @@ export const App: React.FC = () => (
           blandit praesent
         </Card.Text>
       </Card>
+      <br />
     </Container>
   </div>
 );
