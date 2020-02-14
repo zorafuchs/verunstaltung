@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Card, Container, Image, ListGroup, ListGroupItem, Navbar } from 'react-bootstrap';
+import { Card, Container, Image, Navbar } from 'react-bootstrap';
 import { NavigationComponent } from './components/NavigationComponent';
 import logo from './logo.svg';
 import img1 from './img1.png';
@@ -7,7 +7,7 @@ import img2 from './img2.png';
 import img3 from './img3.png';
 
 export const App: React.FC = () => (
-  <div className="turq-bg">
+  <div>
     <div className="sticky">
       <Image className="logo" src={logo} fluid />
       <NavigationComponent />
@@ -25,7 +25,7 @@ export const App: React.FC = () => (
       </Card>
     </Container>
 
-    <Navbar bg="white mt-4">
+    <Navbar className="mt-4" bg="white">
       <Navbar.Brand>Über uns</Navbar.Brand>
     </Navbar>
 

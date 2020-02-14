@@ -9,12 +9,12 @@
   position: -webkit-sticky; /* Safari */
   top: 0;
   left: 0;
-  background: white;
   z-index:99;
+  background-color: #F9F4EF;
 }
 
 .card-title{
-  color: red;
+  color: #FD1A16;
 }
 
 .date{
@@ -23,10 +23,6 @@
 
 .navbar-toggler{
   border: 0px;
-}
-
-.turq-bg {
-  background-color: turquoise;
 }
 
 .logo {
@@ -40,4 +36,19 @@
   border-bottom-style: solid;
   border-bottom-width: 0.1rem;
   border-bottom-color: black;
+}
+
+.navbar-toggler-icon {
+  background-image: 
+  url(
+    "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' \
+      width='30' \
+      height='30' \
+      viewBox='0 0 30 30'%3e%3cpath \
+      stroke='rgba(0, 0, 0, 0.5)' \
+      stroke-miterlimit='10' \
+      stroke-width='4' \
+      d='M4 7h22M4 15h22M4 23h22'\
+      /%3e%3c/svg%3e"
+  ) !important;
 }
