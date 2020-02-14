@@ -2,7 +2,6 @@
 
 * {
   font-family: 'Roboto', sans-serif;
-  background-color: turquoise;
 }
 
 .sticky{
@@ -14,14 +13,31 @@
   z-index:99;
 }
 
-p, h1, h2, h3, h4, .white-bg{
-  background: white;
-}
-
 .card-title{
   color: red;
 }
 
+.date{
+  color:black;
+}
+
 .navbar-toggler{
   border: 0px;
+}
+
+.turq-bg {
+  background-color: turquoise;
+}
+
+.logo {
+  margin: 1.7rem;
+}
+
+.navbar {
+  border-top-style: solid;
+  border-top-width: 0.1rem;
+  border-top-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1rem;
+  border-bottom-color: black;
 }
