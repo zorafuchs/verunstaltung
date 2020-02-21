@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { Container, Image, Navbar } from 'react-bootstrap';
+import { ContactsComponent } from './components/ContactsComponent'
 import { NavigationComponent } from './components/NavigationComponent';
 import { EventsComponent } from './components/EventsComponent';
-import { InformationsComponent } from './components/InformationsComponent'
+import { InformationsComponent } from './components/InformationsComponent';
 import logo from './logo.svg';
 
 export const App: React.FC = () => (
@@ -21,6 +22,15 @@ export const App: React.FC = () => (
 
     <Container>
       <InformationsComponent />
+      <br />
+    </Container>
+
+    <Navbar className="mt-4" bg="white">
+      <Navbar.Brand>Kontakt</Navbar.Brand>
+    </Navbar>
+
+    <Container>
+      <ContactsComponent />
       <br />
     </Container>
   </div>
