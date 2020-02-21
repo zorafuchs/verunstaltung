@@ -34,11 +34,15 @@ export const App: React.FC = () => (
         <Card.Body>
           <Card.Title>Die Verunstaltung</Card.Title>
           <Card.Text>
-            tuer adipiscing elit, sed diam no- nummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vo-
-            lutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vul- putate velit esse
-            molestie consequat, vel illum dolore eu feugiat nulla facili- sis at vero eros et accumsan et iusto odio
-            dignissim qui blandit praesent
+            Die Verunstaltung ist eine Veranstaltungsreihe, die im Zürcher El Lokal stattfindet. Bei den Verunstaltern
+            wird zusammen gehört, was nur so halb zusammengehört. Ziel ist es, das Publikum mit neuen Künstlern bekannt
+            zu machen, die wir Saite an Saite mit vertrauten Musikern präsentieren. Dabei gilt: Wieso in die Ferne
+            schweifen, wenn es so viele lokale talentierte Künstler gibt. Von Purismus halten wir uns aber rein. Das
+            einzige Klischee, das wir dabei bedienen ist, dass wir keine Klischees zu bedienen behaupten. Die Reihe ist
+            nicht ganz neu, sie ist bloss kürzlich erst erwachsen geworden: Noch unter dem Namen Seich’n’Delic wurde vor
+            rund vier Jahren eine Konzertreihe ins Leben gerufen, mit deren Erfolg auch das Bedürfnis nach einem breiter
+            gefächerten Programm und grösserer stilistischer Freiheit wuchs. Ein Namenswechsel war notwendig und die
+            Verunstaltung war geboren.
           </Card.Text>
           <Card.Img variant="top" src={img3} />
         </Card.Body>
@@ -46,13 +50,14 @@ export const App: React.FC = () => (
 
       <Card className="mt-4">
         <Card.Body>
-          <Card.Title>Die Verunstalter</Card.Title>
+          <Card.Title>Die Veruntwortlichen</Card.Title>
           <Card.Text>
-            tuer adipiscing elit, sed diam no- nummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vo-
-            lutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vul- putate velit esse
-            molestie consequat, vel illum dolore eu feugiat nulla facili- sis at vero eros et accumsan et iusto odio
-            dignissim qui blandit praesent
+            Eure Verunstaltungsmacher, Siro Mancuso & Hans Frauchiger, das sind zwei Maturanden, die sich im Müssiggang
+            auf der schuleigenen Finnenbahn kennengelernt haben. Gegenwärtig geistern sie im relativen Raum des
+            Zwischenjahres herum, mit der Hoffnung, diese Herumfreigeisterei bringe möglichst viele brauchbare
+            Hirngespinster hervor. Die Verunstaltung ist eines der Hirngespinster, die derzeit in Erprobung sind.
+            Ehemals in Albisrieden geplant, wo die Umsetzung leider, leider kläglich an einem "Arschloch" gescheitert
+            ist, wird die Verunstaltung nun im renommierten El Lokal stattfinden.
           </Card.Text>
         </Card.Body>
       </Card>
