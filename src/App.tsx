@@ -1,17 +1,29 @@
 import * as React from 'react';
-import { Jumbotron, Container } from 'react-bootstrap';
+import { Container, Image, Navbar } from 'react-bootstrap';
 import { NavigationComponent } from './components/NavigationComponent';
+import { EventsComponent } from './components/EventsComponent';
+import { InformationsComponent } from './components/InformationsComponent'
+import logo from './logo.svg';
 
 export const App: React.FC = () => (
-  <Container>
-    <NavigationComponent />
-    <Jumbotron fluid className="mt-5">
-      <Container>
-        <h1>Nweedia Dashboard</h1>
-        <p>Management dashboard for the Nweedia infrastructure.</p>
-      </Container>
-    </Jumbotron>
-  </Container>
+  <div>
+    <div className="sticky">
+      <Image className="logo" src={logo} fluid />
+      <NavigationComponent />
+    </div>
+    <Container>
+      <EventsComponent />
+    </Container>
+
+    <Navbar className="mt-4" bg="white">
+      <Navbar.Brand>Über uns</Navbar.Brand>
+    </Navbar>
+
+    <Container>
+      <InformationsComponent />
+      <br />
+    </Container>
+  </div>
 );
 
 export default App;
