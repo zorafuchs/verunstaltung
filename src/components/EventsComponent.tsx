@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { EventModel } from '../models/EventModel';
-import img1 from './img1.png';
-import img2 from './img2.png';
+import img1 from '../images/img1.png';
+import img2 from '../images/img2.png';
 
 export const events = [new EventModel('Samstag 22.3.2020', 'Doors 20:00', [img1, img2])];
 

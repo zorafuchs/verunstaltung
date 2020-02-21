@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { InformationModel } from '../models/InformationModel';
-import img3 from './img3.png';
+import img3 from '../images/img3.png';
 
 export const informationCards = [
   new InformationModel(
