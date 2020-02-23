@@ -12,11 +12,11 @@ export const App: React.FC = () => (
       <Image className="logo" src={logo} fluid />
       <NavigationComponent />
     </div>
-    <Container>
+    <Container id="home">
       <EventsComponent />
     </Container>
 
-    <Navbar className="mt-4" bg="white">
+    <Navbar id="about" className="mt-4" bg="white">
       <Navbar.Brand>Über uns</Navbar.Brand>
     </Navbar>
 
@@ -25,7 +25,7 @@ export const App: React.FC = () => (
       <br />
     </Container>
 
-    <Navbar className="mt-4" bg="white">
+    <Navbar id="contact" className="mt-4" bg="white">
       <Navbar.Brand>Kontakt</Navbar.Brand>
     </Navbar>
 
