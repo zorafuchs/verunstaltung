@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Container, Image, Navbar } from 'react-bootstrap';
-import { ContactsComponent } from './components/ContactsComponent'
+import { Card, Container, Image, Navbar } from 'react-bootstrap';
+import { ContactsComponent } from './components/ContactsComponent';
 import { NavigationComponent } from './components/NavigationComponent';
 import { EventsComponent } from './components/EventsComponent';
 import { InformationsComponent } from './components/InformationsComponent';
@@ -22,6 +22,20 @@ export const App: React.FC = () => (
 
     <Container>
       <InformationsComponent />
+      <br />
+    </Container>
+
+    <Navbar id="past" className="mt-4" bg="white">
+      <Navbar.Brand>Rückblick</Navbar.Brand>
+    </Navbar>
+
+    <Container>
+      <Card className="mt-4">
+        <Card.Body>
+          <Card.Title>Rückblick</Card.Title>
+          <Card.Text>Leider gibt es noch keine vergangenen Veranstaltungen.</Card.Text>
+        </Card.Body>
+      </Card>
       <br />
     </Container>
 
