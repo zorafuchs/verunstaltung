@@ -7,16 +7,18 @@ import { InformationsComponent } from './components/InformationsComponent';
 import logo from './logo.svg';
 
 export const App: React.FC = () => (
-  <div>
+  <div id="home">
     <div className="sticky">
-      <Image className="logo" src={logo} fluid />
+      <Image className="logo" src={logo} />
       <NavigationComponent />
     </div>
-    <Container id="home">
+    <Container>
+      <div className="anchor" id="home"></div>
       <EventsComponent />
     </Container>
 
-    <Navbar id="about" className="mt-4" bg="white">
+    <Navbar className="mt-4" bg="white">
+      <div className="anchor" id="about"></div>
       <Navbar.Brand>Über uns</Navbar.Brand>
     </Navbar>
 
@@ -25,7 +27,8 @@ export const App: React.FC = () => (
       <br />
     </Container>
 
-    <Navbar id="past" className="mt-4" bg="white">
+    <Navbar className="mt-4" bg="white">
+      <div className="anchor" id="past"></div>
       <Navbar.Brand>Rückblick</Navbar.Brand>
     </Navbar>
 
@@ -39,7 +42,8 @@ export const App: React.FC = () => (
       <br />
     </Container>
 
-    <Navbar id="contact" className="mt-4" bg="white">
+    <Navbar className="mt-4" bg="white">
+      <div className="anchor" id="contact"></div>
       <Navbar.Brand>Kontakt</Navbar.Brand>
     </Navbar>
 
